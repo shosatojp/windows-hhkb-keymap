@@ -26,3 +26,6 @@ sc064 & vk4C::Send AddModifiers("{PgUp}")
 sc064 & vkBE::Send AddModifiers("{PgDn}")
 sc064 & vk4B::Send AddModifiers("{Home}")
 sc064 & vkBC::Send AddModifiers("{End}")
+
+; IME on/off
+vkEB::Send "{vkF4}"
